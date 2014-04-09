@@ -7,3 +7,5 @@ class Restaurant < ActiveRecord::Base
     return 'No reviews' if reviews.none?
     reviews.average(:rating)
   end
+
+end
