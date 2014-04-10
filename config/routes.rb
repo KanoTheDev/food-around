@@ -6,6 +6,6 @@ Rails.application.routes.draw do
     resources :reviews
   end
 
-  root to: "home#index"
+  root to: "restaurants#index"
   
 end
