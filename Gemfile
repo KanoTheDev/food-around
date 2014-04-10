@@ -13,7 +13,7 @@ gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 gem 'bootstrap'
-gem 'boorstrap-sass'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'rspec-rails'
